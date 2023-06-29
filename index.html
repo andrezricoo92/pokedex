@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="shortcut icon" href="imagen/pokedex.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="flex"></main>
+
+    <template id="template-card">
+
+        <article class="card">
+            <img src="imagen/logo pokemon.jpg" alt="encabezado de la marca pokemo" class="card-header">
+
+            <div class="card-body">
+
+                <img src="imagen/pokemon.jpg" alt="foto del pokemon" class="card-body-img">
+                <h1 class="card-body-title">
+                    Dragapult
+                    <span>0887</span>
+                </h1>
+
+                <p class="card-body-text">
+                    Dragon / Fantasma
+                </p>
+
+            </div>
+
+            <div class="card-footer">
+                <div class="card-footer-abilities">
+                    <h3>3,0 M</h3>
+                    <p>Ataque</p>
+                </div>
+
+                <div class="card-footer-abilities">
+                    <h3>Furtivo</h3>
+                    <p>Especial</p>
+                </div>
+
+                <div class="card-footer-abilities">
+                    <h3>50,0 KG</h3>
+                    <p>Defensa</p>
+                </div>
+            </div>
+        </article>
+
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
